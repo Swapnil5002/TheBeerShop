@@ -1,0 +1,81 @@
+.modal{
+    background-color: rgb(238, 238, 238); 
+    position: fixed;
+    top:50%;
+    left:50%;
+    z-index:999;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 78%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    border-radius: 30px;
+ }
+
+.modal-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    box-shadow: 10px px 5px white;
+}
+
+.modal-heading {
+    margin-bottom: 0;
+    color: orange;
+}
+
+.modal-tagline {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: silver;
+    font-size: 15px;
+}
+
+.hr {
+    width: 80px;
+    margin: 45px 0;
+    border: 4px solid purple;
+    border-radius: 2px;
+}
+
+.readings-title {
+    font-weight: bolder;
+}
+
+.readings {
+    margin-right: 50px;
+    color: silver;
+}
+
+.modal-description {
+    margin: 45px 0;
+    font-weight: lighter;
+    color: rgb(138, 136, 136);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a{
+    top: 1em;
+    right: 2em;
+}
+
+.serving-options {
+    color: rgb(138, 136, 136);
+}
+
+.img {
+    height: 30px;
+}
+
+.modal-image {
+    height: 72%;
+    margin: 35px 0 0 40px;
+}
+
+.close-button {
+    position: absolute;
+    height: 5px;
+}

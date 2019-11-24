@@ -1,0 +1,58 @@
+.container-beer {
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-container {
+    background-color: rgb(238, 237, 235);
+    padding-top: 100px;
+}
+.image {
+    height: 240px;
+}
+
+.content {
+    position: relative;
+    width: 30%;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 5px silver;
+}
+
+.content-container {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-name{
+    color: orange;
+    font-size: 21px;
+}
+.container-tagline {
+    color: rgb(114, 114, 114)
+}
+
+.image-container {
+    text-align: center;
+    position: relative;
+}
+
+
+.container-name {
+    margin: 8px;
+    text-align: center;
+}
+.container-tagline{
+    margin: 1px;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+}

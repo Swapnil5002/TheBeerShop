@@ -1,22 +1,33 @@
-.App {
+.container {
+  background-color: orange;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1% 0 4% 0;
   color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container-sub {
+  text-align: end;
+  margin: 5px 4px  10px 10px;
+  font-size: 14px;
+}
+.container-sub .home {
+  margin-right: 7px;
 }
 
-.App-link {
-  color: #09d3ac;
+.head-container .heading {
+  margin: 0;
+  font-size: 45px;
+}
+
+.head-container .title {
+  margin: 0 auto 35px auto;
+  font-size: 17px;
+}
+.input-holder {
+  margin-top: 30px;
+  margin: 20px 0 40px 0;
+  width:30%;
+  padding: 10px;
+  border:none;
 }
