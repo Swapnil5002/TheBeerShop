@@ -9,8 +9,8 @@ export default class Head extends React.Component {
         this.handleOnChange = this.handleOnChange.bind(this)
     }
 
-    handleOnChange() {
-
+    handleOnChange(event) {
+        this.props.handleSearchChange(event.target.value)
     }
 
     render() {

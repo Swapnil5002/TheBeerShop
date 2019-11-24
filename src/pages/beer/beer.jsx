@@ -8,22 +8,11 @@ import Modal from '../modal/modal.jsx';
 export default class Beer extends React.Component {
     constructor(props) {
         super(props);
-            this.state={
-                    allData: [],
+            this.state={    
                     shoulShowModal: false
         }
     }
         
-    componentDidMount() {
-            axios.get(`https://api.punkapi.com/v2/beers?brewed_before=11-2012&abv_gt=6`)
-            .then(res => {
-                const allData = res.data
-                this.setState({
-                    allData
-                    
-                })
-            });     
-    }
 
 
     handleClick(id) {
@@ -57,7 +46,7 @@ export default class Beer extends React.Component {
             <React.Fragment>
                 <div className="main-container">
                     <div className="container-beer">
-                        {this.state.allData.map((data) => (
+                        {this.props.data.map((data) => (
                             <div className="content" id={data.id} onClick={this.handleClick.bind(this, data.id)}>
                                 <div className="content-container">
                                     <div className="image-container">
